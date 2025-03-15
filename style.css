@@ -1,0 +1,125 @@
+/* RESET */
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root {
+  --lime-50: oklch(0.986 0.031 120.757);
+  --lime-100: oklch(0.967 0.067 122.328);
+  --lime-200: oklch(0.938 0.127 124.321);
+  --lime-300: oklch(0.897 0.196 126.665);
+  --lime-400: oklch(0.841 0.238 128.85);
+  --lime-500: oklch(0.768 0.233 130.85);
+  --lime-600: oklch(0.648 0.2 131.684);
+  --lime-700: oklch(0.532 0.157 131.589);
+  --lime-800: oklch(0.453 0.124 130.933);
+  --lime-900: oklch(0.405 0.101 131.063);
+  --lime-950: oklch(0.274 0.072 132.109);
+
+  --bunker-50: #f2f4f7;
+  --bunker-100: #e2e6ee;
+  --bunker-200: #c1cbdb;
+  --bunker-300: #a1b0c9;
+  --bunker-400: #8195b6;
+  --bunker-500: #586e96;
+  --bunker-600: #435675;
+  --bunker-700: #1e2736;
+  --bunker-800: #171d28;
+  --bunker-900: #0f141c;
+  --bunker-950: #0b0e13;
+
+  --color-primary: var(--color-lime-500);
+}
+
+body {
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+
+  background-color: var(--bunker-100);
+}
+
+header,
+footer {
+  background-color: var(--bunker-800);
+  color: var(--bunker-50);
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  gap: 5px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+p {
+  color: var(--bunker-600);
+  text-align: justify;
+}
+
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  min-height: 100dvh;
+}
+
+.cards-container {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  background-color: var(--bunker-50);
+  border-radius: 30px;
+  padding: 16px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-weight: 600;
+  }
+
+  img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  details {
+    summary {
+      width: fit-content;
+      cursor: pointer;
+      background-color: var(--lime-600);
+      color: var(--bunker-50);
+      padding-inline: 10px;
+      padding-block: 5px;
+      border-radius: 14px;
+      font-size: small;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+
+    ol {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+}

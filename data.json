@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "image": {
+      "src": "https://picsum.photos/id/1/800/450",
+      "alt": "something"
+    },
+    "title": "Section Title",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
+    "details": {
+      "summary": "Show More",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
+      "list": [
+        "List Item 1",
+        "List Item 2",
+        "List Item 3"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "https://picsum.photos/id/2/800/450",
+      "alt": "something"
+    },
+    "title": "Section Title",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
+    "details": {
+      "summary": "Show More",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
+      "list": [
+        "List Item 1",
+        "List Item 2",
+        "List Item 3",
+        "List Item 4"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "https://picsum.photos/id/2/800/450",
+      "alt": "something"
+    },
+    "title": "Section Title",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
+    "details": {
+      "summary": "Show More",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
+      "list": [
+        "List Item 1",
+        "List Item 2",
+        "List Item 3",
+        "List Item 4"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "https://picsum.photos/id/2/800/450",
+      "alt": "something"
+    },
+    "title": "Section Title",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
+    "details": {
+      "summary": "Show More",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
+      "list": [
+        "List Item 1",
+        "List Item 2",
+        "List Item 3",
+        "List Item 4"
+      ]
+    }
+  }
+]
