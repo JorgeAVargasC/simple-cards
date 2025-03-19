@@ -2,76 +2,180 @@
   {
     "id": 1,
     "image": {
-      "src": "https://picsum.photos/id/1/800/450",
-      "alt": "something"
+      "src": "./assets/img/bull-shark.jpeg",
+      "alt": "bull-shark"
     },
-    "title": "Section Title",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
-    "details": {
-      "summary": "Show More",
-      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
-      "list": [
-        "List Item 1",
-        "List Item 2",
-        "List Item 3"
-      ]
-    }
+    "title": "Bull Shark",
+    "description": "",
+    "details": [
+      {
+        "summary": "Conservation Status: Vulnerable",
+        "content": "So it faces a big danger of become extinct in the wild. Its population trend is decreasing",
+        "list": []
+      },
+      {
+        "summary": "Interesting Facts",
+        "content": "",
+        "list": [
+          "It is one of the few sharks that can live in both freshwater and saltwater because of its specialized glands that retains saltwater",
+          "He attacks humans, but no because we are special for him, we just are like one more fish for them",
+          "It can travel up rivers and lakes and has been found in the Amazon and Mississippi.",
+          "It is known for its aggressiveness and strength."
+        ]
+      },
+      {
+        "summary": "Contribution to its habitat's balance",
+        "content": "",
+        "list": [
+          "Regulates populations of fish, turtles, and other aquatic animals.",
+          "Maintains the health of marine and freshwater ecosystems."
+        ]
+      },
+      {
+        "summary": "Threats",
+        "content": "",
+        "list": [
+          "Overfishing and bycatch.",
+          "Pollution of rivers and oceans.",
+          "Destruction of mangroves and coral reefs, which are their breeding areas."
+        ]
+      },
+      {
+        "summary": "What would happen if it goes extinct?",
+        "content": "",
+        "list": [
+          "Imbalance in the populations of their prey, affecting other predators.",
+          "Lost of biodiversity in aquatic ecosystems."
+        ]
+      },
+      {
+        "summary": "How can we prevent its extinction?",
+        "content": "",
+        "list": [
+          "Implement sustainable fishing practices and protect breeding areas.",
+          "Reduce pollution in oceans and rivers.",
+          "Create marine reserves and protected areas."
+        ]
+      }
+    ]
   },
   {
     "id": 2,
     "image": {
-      "src": "https://picsum.photos/id/2/800/450",
-      "alt": "something"
+      "src": "./assets/img/frog.jpeg",
+      "alt": "frog"
     },
-    "title": "Section Title",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
-    "details": {
-      "summary": "Show More",
-      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
-      "list": [
-        "List Item 1",
-        "List Item 2",
-        "List Item 3",
-        "List Item 4"
-      ]
-    }
+    "title": "Osteopilus crucialis",
+    "description": "",
+    "details": [
+      {
+        "summary": "Conservation Status: Vulnerable",
+        "content": "So it faces a big danger of become extinct in the wild. Its population trend is decreasing",
+        "list": []
+      },
+      {
+        "summary": "Interesting Facts",
+        "content": "",
+        "list": [
+          "Its also known as the Jamaican Frog",
+          "It is a frog species endemic to Jamaica.",
+          "It lives in humid forests and near bodies of water.",
+          "It has bright colors that help it camouflage in its environment."
+        ]
+      },
+      {
+        "summary": "Contribution to its habitat's balance",
+        "content": "",
+        "list": [
+          "Controls populations of insects and other invertebrates.",
+          "Serves as prey for birds, reptiles, and mammals."
+        ]
+      },
+      {
+        "summary": "Threats",
+        "content": "",
+        "list": [
+          "Habitat loss due to deforestation and urbanization.",
+          "Pollution of rivers and lakes.",
+          "Diseases like the chytrid fungus, which affects amphibians."
+        ]
+      },
+      {
+        "summary": "What would happen if it goes extinct?",
+        "content": "",
+        "list": [
+          "Increase in insect populations, which could affect crops and ecosystems.",
+          "Disruption of the food chain in their habitat."
+        ]
+      },
+      {
+        "summary": "How can we prevent its extinction?",
+        "content": "",
+        "list": [
+          "Conserve and restore forests and water bodies in Jamaica.",
+          "Control pollution and avoid the introduction of invasive species.",
+          "Monitor and treat diseases affecting amphibians."
+        ]
+      }
+    ]
   },
   {
-    "id": 2,
+    "id": 3,
     "image": {
-      "src": "https://picsum.photos/id/2/800/450",
-      "alt": "something"
+      "src": "./assets/img/snake.jpeg",
+      "alt": "snake"
     },
-    "title": "Section Title",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
-    "details": {
-      "summary": "Show More",
-      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
-      "list": [
-        "List Item 1",
-        "List Item 2",
-        "List Item 3",
-        "List Item 4"
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "image": {
-      "src": "https://picsum.photos/id/2/800/450",
-      "alt": "something"
-    },
-    "title": "Section Title",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto soluta corrupti accusamus",
-    "details": {
-      "summary": "Show More",
-      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi similique, tempora esse saepe officiis sit corporis mollitia fugit, ut rerum, molestiae obcaecati id alias quas illo doloribus odit aperiam nemo.",
-      "list": [
-        "List Item 1",
-        "List Item 2",
-        "List Item 3",
-        "List Item 4"
-      ]
-    }
+    "title": "Cave Racer",
+    "description": "",
+    "details": [
+      {
+        "summary": "Conservation Status: Vulnerable",
+        "content": "So it faces a big danger of become extinct in the wild. Its population trend is decreasing",
+        "list": []
+      },
+      {
+        "summary": "Interesting Facts",
+        "content": "",
+        "list": [
+          "Cave snakes are species adapted to live in underground environments, such as caves and crevices.",
+          "Many of these snakes have reduced or absent eyes due to the lack of light in their habitat.",
+          "They rely on other senses, such as smell and vibration detection, to hunt prey."
+        ]
+      },
+      {
+        "summary": "Contribution to its habitat's balance",
+        "content": "",
+        "list": [
+          "They control populations of small animals, such as rodents, insects, and other reptiles.",
+          "They serve as prey for other predators, contributing to the food chain."
+        ]
+      },
+      {
+        "summary": "Threats",
+        "content": "",
+        "list": [
+          "Diseases like the chytrid fungus, which affects amphibians.",
+          "Habitat loss due to deforestation and urbanization.",
+          "Pollution of rivers and lakes."
+        ]
+      },
+      {
+        "summary": "What would happen if it goes extinct?",
+        "content": "",
+        "list": [
+          "Imbalance in the populations of their prey, which could affect other species.",
+          "Lost of biodiversity in subterranean ecosystems."
+        ]
+      },
+      {
+        "summary": "How can we prevent its extinction?",
+        "content": "",
+        "list": [
+          "Protect and conserve cave habitats and underground systems.",
+          "Regulate human activities that damage their environment.",
+          "Promote research and monitoring of these species."
+        ]
+      }
+    ]
   }
 ]

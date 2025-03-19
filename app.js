@@ -1,13 +1,14 @@
+import { LOG_STYLE } from './constants/log-style.js'
 import { getJSONData } from './functions/get-json-data.js'
-import { renderCards } from './functions/render-cards.js'
+import { renderSections } from './functions/render-sections.js'
 
 const app = async () => {
-  console.log('APP STARTED')
+  console.log('%cAPP STARTED', LOG_STYLE)
 
   const data = await getJSONData()
-  renderCards(data)
+  renderSections(data)
 
-  console.log('APP ENDED')
+  console.log('%cAPP ENDED', LOG_STYLE)
 }
 
 app()

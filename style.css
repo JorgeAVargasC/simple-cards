@@ -11,17 +11,21 @@
 /* VARIABLES */
 
 :root {
-  --lime-50: oklch(0.986 0.031 120.757);
-  --lime-100: oklch(0.967 0.067 122.328);
-  --lime-200: oklch(0.938 0.127 124.321);
-  --lime-300: oklch(0.897 0.196 126.665);
-  --lime-400: oklch(0.841 0.238 128.85);
-  --lime-500: oklch(0.768 0.233 130.85);
-  --lime-600: oklch(0.648 0.2 131.684);
-  --lime-700: oklch(0.532 0.157 131.589);
-  --lime-800: oklch(0.453 0.124 130.933);
-  --lime-900: oklch(0.405 0.101 131.063);
-  --lime-950: oklch(0.274 0.072 132.109);
+  --lime-50: #f7fee7;
+  --lime-100: #ecfcca;
+  --lime-200: #d8fa99;
+  --lime-300: #bbf451;
+  --lime-400: #9ae600;
+  --lime-500: #7ccf00;
+
+  --lime-600: #5ea500;
+
+  --lime-600-transparent: #5da50013;
+
+  --lime-700: #497d00;
+  --lime-800: #3c6300;
+  --lime-900: #35530e;
+  --lime-950: #192e03;
 
   --bunker-50: #f2f4f7;
   --bunker-100: #e2e6ee;
@@ -36,6 +40,7 @@
   --bunker-950: #0b0e13;
 
   --color-primary: var(--color-lime-500);
+  --test: 768px;
 }
 
 body {
@@ -43,6 +48,11 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
 
   background-color: var(--bunker-100);
+
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 header,
@@ -59,22 +69,60 @@ footer {
 header {
   position: sticky;
   top: 0px;
+
+  small::before {
+    content: 'Mobile View';
+  }
+
+  /* TABLET */
+  @media (width >= 768px) {
+    small::before {
+      content: 'Tablet View';
+    }
+  }
+
+  /* DESKTOP */
+  @media (width >= 1024px) {
+    small::before {
+      content: 'Desktop View';
+    }
+  }
+}
+
+h1 {
+  font-size: 1.2rem;
+
+  /* TABLET */
+  @media (width >= 768px) {
+    font-size: 1.3rem;
+  }
+
+  /* DESKTOP */
+  @media (width >= 1024px) {
+    font-size: 1.4rem;
+  }
 }
 
 p {
+  font-size: 0.8rem;
   color: var(--bunker-600);
   text-align: justify;
+}
+
+ol {
+  font-size: 0.8rem;
+  color: var(--bunker-600);
 }
 
 .container {
   max-width: 1000px;
   margin-inline: auto;
-
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 100%;
+  flex: 1;
   gap: 20px;
-  min-height: 100dvh;
 }
 
 .cards-container {
@@ -103,14 +151,25 @@ p {
 
   details {
     summary {
-      width: fit-content;
+      width: 100%;
       cursor: pointer;
-      background-color: var(--lime-600);
-      color: var(--bunker-50);
+      background-color: var(--lime-600-transparent);
+
+      color: var(--lime-600);
       padding-inline: 10px;
       padding-block: 5px;
       border-radius: 14px;
       font-size: small;
+
+      transition-duration: 200ms;
+    }
+
+    &[open] {
+      summary {
+        transition-duration: 200ms;
+        background-color: var(--lime-600);
+        color: var(--bunker-50);
+      }
     }
 
     p {
@@ -120,6 +179,14 @@ p {
     ol {
       margin-top: 10px;
       margin-left: 20px;
+
+      display: grid;
+      gap: 10px;
+
+      li::marker {
+        color: var(--lime-600);
+        font-weight: 600;
+      }
     }
   }
 }
